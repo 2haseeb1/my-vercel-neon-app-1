@@ -1,3 +1,19 @@
-node_modules
-# Keep environment variables out of version control
+# Node.js
+
+node_modules/ package-lock.json
+
+# Build output
+
+dist/
+
+# Environment variables
+
 .env
+
+# Editor and IDE files
+
+.vscode/ \*.log .DS_Store
+
+# Temporary files
+
+\*.tmp \*.bak
